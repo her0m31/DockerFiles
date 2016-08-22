@@ -16,5 +16,3 @@ services:
     build: ./mysql
     image: her8m/mysql
     container_name: db
-    ports:
-      - "3306:3306"
