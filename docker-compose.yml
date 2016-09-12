@@ -9,7 +9,7 @@ services:
     links:
       - db:db
     ports:
-      - "80:80"
+      - "30580:80"
     depends_on:
       - db
   db:
